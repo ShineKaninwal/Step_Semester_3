@@ -2,33 +2,134 @@
 
 This repository contains my Java programming practice problems and assignments completed as part of the STEP Class.
 
----
-
-## Week 01
-
-### Practice Problems
-
-The Week 01 practice problems cover basic Java programming concepts such as loops, arrays, strings, recursion, random number generation, and conditional logic.
-
-1. Rock-Paper-Scissors Game
-2. Palindrome Checker - 3 Approaches
-3. BMI Calculator for a Team
-4. First Non-Repeating Character
-5. Reverse Customer Name
-
-### Assignment
-
-The Week 01 assignment focuses on arrays, strings, loops, searching, counting, comparison, and basic problem-solving.
-
-1. Exam Hall Seat Duplication Checker
-2. Typing Speed Test Accuracy Checker
-3. Traffic Signal Streak Analyzer
-4. Warehouse Inventory Balancer
-5. Movie Review Word Length Profiler
+The repository is organized week-wise so that all practice problems and assignments can be maintained in a single GitHub repository.
 
 ---
 
-## Folder Structure
+## 📚 Week 01
+
+### 📝 Week 01 - Practice Problems
+
+The Week 01 practice session focuses on basic Java programming concepts including loops, arrays, strings, recursion, random number generation, conditional logic, and formatted output.
+
+#### Problems
+
+1. **Rock-Paper-Scissors Game**
+   - Random number generation
+   - Conditional logic
+   - Loops
+   - Arrays
+   - Basic statistics
+
+2. **Palindrome Checker - 3 Approaches**
+   - Iterative approach
+   - Recursive approach
+   - Array reversal
+   - String comparison
+
+3. **BMI Calculator for a Team**
+   - Arrays
+   - Arithmetic operations
+   - Conditional statements
+   - Formatted output
+
+4. **First Non-Repeating Character**
+   - Character frequency counting
+   - Loops
+   - Arrays / frequency counting
+   - String traversal
+
+5. **Reverse Customer Name**
+   - String traversal
+   - Character arrays
+   - String reconstruction
+
+### 📌 Week 01 - Assignment
+
+The Week 01 assignment focuses on arrays, strings, loops, searching, counting, comparison, and problem-solving.
+
+#### Problems
+
+1. **Exam Hall Seat Duplication Checker**
+   - Arrays
+   - Nested loops
+   - Duplicate detection
+   - Conditional logic
+
+2. **Typing Speed Test Accuracy Checker**
+   - String traversal
+   - `charAt()`
+   - Character comparison
+   - Accuracy calculation
+
+3. **Traffic Signal Streak Analyzer**
+   - String traversal
+   - Character comparison
+   - Looping
+   - Tracking maximum values
+
+4. **Warehouse Inventory Balancer**
+   - Arrays
+   - Sum accumulation
+   - Maximum value tracking
+   - Index tracking
+
+5. **Movie Review Word Length Profiler**
+   - `split()`
+   - String traversal
+   - Word classification
+   - Counting and categorization
+
+---
+
+## 📚 Week 02
+
+### 📝 Week 02 - Practice Problems
+
+The Week 02 practice session focuses on string manipulation, character traversal, validation, `StringBuilder`, and formatted output.
+
+#### Problems
+
+1. **Vowel & Consonant Counter**
+   - `charAt()`
+   - `length()`
+   - Loops
+   - Case-insensitive character comparison
+   - Character classification
+
+2. **CSV Student Record Parser**
+   - `split()`
+   - Arrays
+   - Array length validation
+   - String concatenation
+   - Formatted output
+
+3. **File Extension Validator**
+   - `lastIndexOf()`
+   - `substring()`
+   - `equalsIgnoreCase()`
+   - Conditional logic
+   - File extension validation
+
+4. **Masked Phone Number Formatter**
+   - String validation
+   - `substring()`
+   - `StringBuilder`
+   - `insert()`
+   - Character validation
+
+5. **Bank Transaction Reference Generator & Validator**
+   - `trim()`
+   - `substring()`
+   - String concatenation
+   - `Character.isLetter()`
+   - `Character.isDigit()`
+   - `StringBuilder`
+   - Multi-stage validation
+
+---
+
+## 📂 Repository Structure
 
 ```text
 STEP-Class/
@@ -42,9 +143,16 @@ STEP-Class/
 │   ├── Problem04_FirstNonRepeatingCharacter.java
 │   └── Problem05_ReverseCustomerName.java
 │
-└── Week-01-Assignment/
-    ├── Problem01_DuplicateSeatChecker.java
-    ├── Problem02_TypingAccuracyChecker.java
-    ├── Problem03_TrafficSignalStreak.java
-    ├── Problem04_WarehouseInventory.java
-    └── Problem05_MovieReviewProfiler.java
+├── Week-01-Assignment/
+│   ├── Problem01_DuplicateSeatChecker.java
+│   ├── Problem02_TypingAccuracyChecker.java
+│   ├── Problem03_TrafficSignalStreak.java
+│   ├── Problem04_WarehouseInventory.java
+│   └── Problem05_MovieReviewProfiler.java
+│
+└── Week-02-Practice-Problems/
+    ├── Problem01_VowelConsonantCounter.java
+    ├── Problem02_CSVStudentRecordParser.java
+    ├── Problem03_FileExtensionValidator.java
+    ├── Problem04_MaskedPhoneNumberFormatter.java
+    └── Problem05_BankTransactionReference.java
