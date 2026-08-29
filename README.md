@@ -44,6 +44,8 @@ The Week 01 practice session focuses on basic Java programming concepts includin
    - Character arrays
    - String reconstruction
 
+---
+
 ### 📌 Week 01 - Assignment
 
 The Week 01 assignment focuses on arrays, strings, loops, searching, counting, comparison, and problem-solving.
@@ -129,6 +131,51 @@ The Week 02 practice session focuses on string manipulation, character traversal
 
 ---
 
+### 📌 Week 02 - Assignment
+
+The Week 02 assignment focuses on basic string operations, validation, loops, `StringBuilder`, CSV parsing, `HashMap`, frequency counting, and sorting.
+
+#### Problems
+
+1. **ATM PIN Length Validator**
+   - `length()`
+   - `if / else`
+   - Comparison operators
+   - Basic validation
+
+2. **Word Reversal Encoder**
+   - `split()`
+   - Loops
+   - `StringBuilder`
+   - String reversal
+   - String joining
+
+3. **Product Inventory CSV Parser**
+   - `split()`
+   - Arrays
+   - Array length validation
+   - String concatenation
+   - Formatted output
+
+4. **Library ISBN Normalizer & Validator**
+   - `trim()`
+   - `substring()`
+   - String concatenation
+   - `Character.isLetter()`
+   - `Character.isDigit()`
+   - `StringBuilder`
+   - Multi-stage validation
+
+5. **Stop-Word-Filtered Word Frequency Report**
+   - `replace()`
+   - `split("\\s+")`
+   - Stop-word filtering
+   - `HashMap`
+   - Frequency counting
+   - Sorting by frequency
+
+---
+
 ## 📂 Repository Structure
 
 ```text
@@ -150,9 +197,16 @@ STEP-Class/
 │   ├── Problem04_WarehouseInventory.java
 │   └── Problem05_MovieReviewProfiler.java
 │
-└── Week-02-Practice-Problems/
-    ├── Problem01_VowelConsonantCounter.java
-    ├── Problem02_CSVStudentRecordParser.java
-    ├── Problem03_FileExtensionValidator.java
-    ├── Problem04_MaskedPhoneNumberFormatter.java
-    └── Problem05_BankTransactionReference.java
+├── Week-02-Practice-Problems/
+│   ├── Problem01_VowelConsonantCounter.java
+│   ├── Problem02_CSVStudentRecordParser.java
+│   ├── Problem03_FileExtensionValidator.java
+│   ├── Problem04_MaskedPhoneNumberFormatter.java
+│   └── Problem05_BankTransactionReference.java
+│
+└── Week-02-Assignment/
+    ├── Problem01_ATMPinLengthValidator.java
+    ├── Problem02_WordReversalEncoder.java
+    ├── Problem03_ProductInventoryCSVParser.java
+    ├── Problem04_LibraryISBNNormalizerValidator.java
+    └── Problem05_StopWordFilteredFrequency.java
