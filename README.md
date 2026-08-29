@@ -36,7 +36,7 @@ The Week 01 practice session focuses on basic Java programming concepts includin
 4. **First Non-Repeating Character**
    - Character frequency counting
    - Loops
-   - Arrays / frequency counting
+   - Arrays
    - String traversal
 
 5. **Reverse Customer Name**
@@ -67,8 +67,8 @@ The Week 01 assignment focuses on arrays, strings, loops, searching, counting, c
 3. **Traffic Signal Streak Analyzer**
    - String traversal
    - Character comparison
-   - Looping
-   - Tracking maximum values
+   - Loops
+   - Maximum streak tracking
 
 4. **Warehouse Inventory Balancer**
    - Arrays
@@ -96,14 +96,12 @@ The Week 02 practice session focuses on string manipulation, character traversal
    - `charAt()`
    - `length()`
    - Loops
-   - Case-insensitive character comparison
-   - Character classification
+   - Case-insensitive comparison
 
 2. **CSV Student Record Parser**
    - `split()`
    - Arrays
    - Array length validation
-   - String concatenation
    - Formatted output
 
 3. **File Extension Validator**
@@ -111,19 +109,16 @@ The Week 02 practice session focuses on string manipulation, character traversal
    - `substring()`
    - `equalsIgnoreCase()`
    - Conditional logic
-   - File extension validation
 
 4. **Masked Phone Number Formatter**
    - String validation
    - `substring()`
    - `StringBuilder`
-   - `insert()`
    - Character validation
 
 5. **Bank Transaction Reference Generator & Validator**
    - `trim()`
    - `substring()`
-   - String concatenation
    - `Character.isLetter()`
    - `Character.isDigit()`
    - `StringBuilder`
@@ -133,7 +128,7 @@ The Week 02 practice session focuses on string manipulation, character traversal
 
 ### 📌 Week 02 - Assignment
 
-The Week 02 assignment focuses on basic string operations, validation, loops, `StringBuilder`, CSV parsing, `HashMap`, frequency counting, and sorting.
+The Week 02 assignment focuses on string operations, validation, loops, `StringBuilder`, CSV parsing, `HashMap`, frequency counting, and sorting.
 
 #### Problems
 
@@ -141,30 +136,25 @@ The Week 02 assignment focuses on basic string operations, validation, loops, `S
    - `length()`
    - `if / else`
    - Comparison operators
-   - Basic validation
 
 2. **Word Reversal Encoder**
    - `split()`
    - Loops
    - `StringBuilder`
    - String reversal
-   - String joining
 
 3. **Product Inventory CSV Parser**
    - `split()`
    - Arrays
-   - Array length validation
-   - String concatenation
+   - Validation
    - Formatted output
 
 4. **Library ISBN Normalizer & Validator**
    - `trim()`
    - `substring()`
-   - String concatenation
    - `Character.isLetter()`
    - `Character.isDigit()`
    - `StringBuilder`
-   - Multi-stage validation
 
 5. **Stop-Word-Filtered Word Frequency Report**
    - `replace()`
@@ -172,7 +162,56 @@ The Week 02 assignment focuses on basic string operations, validation, loops, `S
    - Stop-word filtering
    - `HashMap`
    - Frequency counting
-   - Sorting by frequency
+   - Sorting
+
+---
+
+## 📚 Week 03
+
+### 📝 Week 03 - OOP Practice Problems
+
+The Week 03 practice session introduces Object-Oriented Programming using classes, objects, constructors, encapsulation, reference variables, constructor overloading, and static members.
+
+#### Problems
+
+1. **From Parallel Arrays to a Class**
+   - Classes and objects
+   - Constructors
+   - Instance fields
+   - Instance methods
+   - Arrays of objects
+   - OOP vs parallel arrays
+
+2. **Encapsulated Mess-Card Wallet**
+   - Encapsulation
+   - Private fields
+   - Public methods
+   - Validation
+   - Getter methods
+   - Controlled access to data
+
+3. **Overloaded Constructors for a Course**
+   - Constructor overloading
+   - `this()`
+   - Constructor chaining
+   - Avoiding duplicate initialization
+   - Instance methods
+
+4. **Reference Copies and a Shared ID Card**
+   - Object references
+   - Reference copying
+   - `==` operator
+   - Object identity
+   - Shared objects
+   - Separate objects
+
+5. **Instance vs Static: Splitting a Class Correctly**
+   - Instance variables
+   - Static variables
+   - Static methods
+   - Shared class data
+   - Object counters
+   - Accessing static members through the class
 
 ---
 
@@ -204,9 +243,16 @@ STEP-Class/
 │   ├── Problem04_MaskedPhoneNumberFormatter.java
 │   └── Problem05_BankTransactionReference.java
 │
-└── Week-02-Assignment/
-    ├── Problem01_ATMPinLengthValidator.java
-    ├── Problem02_WordReversalEncoder.java
-    ├── Problem03_ProductInventoryCSVParser.java
-    ├── Problem04_LibraryISBNNormalizerValidator.java
-    └── Problem05_StopWordFilteredFrequency.java
+├── Week-02-Assignment/
+│   ├── Problem01_ATMPinLengthValidator.java
+│   ├── Problem02_WordReversalEncoder.java
+│   ├── Problem03_ProductInventoryCSVParser.java
+│   ├── Problem04_LibraryISBNNormalizerValidator.java
+│   └── Problem05_StopWordFilteredFrequency.java
+│
+└── Week-03-Practice-Problems/
+    ├── Problem01_PlacementRecord.java
+    ├── Problem02_MessWallet.java
+    ├── Problem03_CourseConstructors.java
+    ├── Problem04_IdCardReferences.java
+    └── Problem05_StaticStudent.java
